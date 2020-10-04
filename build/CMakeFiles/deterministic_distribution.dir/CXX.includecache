@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../project/include/determ_functions.h
+vector
+-
+string
+-
+
+../project/include/filei_logic.h
+vector
+-
+string
+-
+
+/home/ilya-kalinin/deterministic distribution/main.cpp
+iostream
+-
+vector
+-
+string
+-
+determ_functions.h
+/home/ilya-kalinin/deterministic distribution/determ_functions.h
+filei_logic.h
+/home/ilya-kalinin/deterministic distribution/filei_logic.h
+
+/home/ilya-kalinin/deterministic distribution/project/src/determ_functions.cpp
+iostream
+-
+determ_functions.h
+/home/ilya-kalinin/deterministic distribution/project/src/determ_functions.h
+
+/home/ilya-kalinin/deterministic distribution/project/src/filei_logic.cpp
+iostream
+-
+fstream
+-
+filei_logic.h
+/home/ilya-kalinin/deterministic distribution/project/src/filei_logic.h
+

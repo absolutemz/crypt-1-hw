@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/deterministic_distribution.dir/main.cpp.o CMakeFiles/deterministic_distribution.dir/project/src/filei_logic.cpp.o CMakeFiles/deterministic_distribution.dir/project/src/determ_functions.cpp.o -o deterministic_distribution 
