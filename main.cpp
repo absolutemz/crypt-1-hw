@@ -66,12 +66,11 @@ int main(int argc, char *argv[]) {
     }
 
     std::vector<std::string> students;
-    std::vector<std::size_t> XOR_ASCI_students;
 
     read_from_file(&students, file_path);
 
     for(size_t i = 0; i < students.size(); ++i) {  // Распределение
-        std::cout << students[i] << ": " << take_variant(xoring_func(convert_to_ASCII(students[i]), parameter), variants) << std::endl;
+        std::cout << students[i] << ": " << take_variant(sha256(students[i] + std::to_string(parameter)), variants) << std::endl;
     }
 
     return 0;

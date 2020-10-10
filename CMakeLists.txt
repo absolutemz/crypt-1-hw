@@ -9,3 +9,7 @@ add_executable(${PROJECT_NAME}
         main.cpp
         project/src/filei_logic.cpp
         project/src/determ_functions.cpp)
+
+find_package(OpenSSL REQUIRED)
+
+target_link_libraries(deterministic_distribution OpenSSL::SSL)

@@ -128,6 +128,8 @@ deterministic_distribution: CMakeFiles/deterministic_distribution.dir/main.cpp.o
 deterministic_distribution: CMakeFiles/deterministic_distribution.dir/project/src/filei_logic.cpp.o
 deterministic_distribution: CMakeFiles/deterministic_distribution.dir/project/src/determ_functions.cpp.o
 deterministic_distribution: CMakeFiles/deterministic_distribution.dir/build.make
+deterministic_distribution: /usr/lib/x86_64-linux-gnu/libssl.so
+deterministic_distribution: /usr/lib/x86_64-linux-gnu/libcrypto.so
 deterministic_distribution: CMakeFiles/deterministic_distribution.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ilya-kalinin/deterministic distribution/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable deterministic_distribution"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/deterministic_distribution.dir/link.txt --verbose=$(VERBOSE)

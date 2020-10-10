@@ -14,10 +14,10 @@
 
 4. Запустите `make` для сборки
 
-5. Запустите команду в формате "./deterministic_distribution --file <filename> --numbilets <count_of_variants> --parameter <parameter>"
-где: <filename> - путь до файла с ФИО студентов (поместить файл необходимо в корень репозитория)
+5. Запустите команду в формате "./deterministic_distribution --file <_filename> --numbilets <count_of_variants> --parameter <_parameter>"
+где: <_filename> - путь до файла с ФИО студентов (поместить файл необходимо в корень репозитория)
      <count_of_variants> - количество вариантов для распределения (count_of_variants > 0)
-     <parameter> - численный параметр, детерминированно меняющий распределение
+     <_parameter> - численный параметр, детерминированно меняющий распределение
 
 ## Примечание к запуску
 

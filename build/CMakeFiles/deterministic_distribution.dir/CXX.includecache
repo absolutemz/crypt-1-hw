@@ -7,8 +7,6 @@
 #IncludeRegexTransform: 
 
 ../project/include/determ_functions.h
-vector
--
 string
 -
 
@@ -33,14 +31,10 @@ filei_logic.h
 /home/ilya-kalinin/deterministic distribution/project/src/determ_functions.cpp
 iostream
 -
+iomanip
+-
+openssl/sha.h
+-
 determ_functions.h
 /home/ilya-kalinin/deterministic distribution/project/src/determ_functions.h
-
-/home/ilya-kalinin/deterministic distribution/project/src/filei_logic.cpp
-iostream
--
-fstream
--
-filei_logic.h
-/home/ilya-kalinin/deterministic distribution/project/src/filei_logic.h
 
